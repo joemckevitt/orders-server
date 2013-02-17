@@ -16,6 +16,7 @@ import java.util.List;
 
 //http://localhost:9090/family_restful_service/family/list
 //curl get http://localhost:9090/family_restful_service/family/list
+//url for tomcat http://127.0.0.1:8080/myfamily/family/list
 
 @Path("family")
 public class FamilyController {
@@ -28,6 +29,9 @@ public class FamilyController {
         family.add("James");
         family.add("Mazza");
         family.add("Claire");
+        family.add("Maire");
+        family.add("Noel");
+
     }
 
 
