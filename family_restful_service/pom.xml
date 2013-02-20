@@ -57,14 +57,16 @@
                 -->
                 <version>2.0</version>
                 <configuration>
+                    <update>true</update>
+                    <tomcatUsers>${basedir}/conf/tomcat-users.xml</tomcatUsers>
                     <url>http://127.0.0.1:8080/manager/text</url>
                     <server>TomcatServer</server>
                     <!-- http port -->
                     <port>8080</port>
                     <!-- application path always starts with /-->
                     <path>/myfamily</path>
-                    <!-- optionnal path to a context file
-                    <contextFile>/Users/pjmckevitt/scratch/tomcat-context-archiva-gmail.xml</contextFile>   -->
+                    <!-- optionnal path to a context file    -->
+                    <contextFile>${basedir}/conf/context.xml</contextFile>
                     <!-- optionnal system propoerties you want to add -->
 <!--                    <systemProperties>
                         <appserver.base>/Users/pjmckevitt/scratch/sources/tomcat/maven-plugin-svn/target/checkout/target/appserver-base</appserver.base>
@@ -83,7 +85,6 @@
                 <dependencies>
                 </dependencies>
             </plugin>
-
         </plugins>
     </build>
 </project>
