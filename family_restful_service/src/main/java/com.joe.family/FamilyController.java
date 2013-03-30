@@ -30,7 +30,7 @@ public class FamilyController {
         family.add("Mazza");
         family.add("Claire");
         family.add("Maire");
-        family.add("Noel11");
+        family.add("Noel changed via git and deployed locally by jenkins");
 
     }
 
