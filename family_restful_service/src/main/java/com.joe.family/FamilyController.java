@@ -31,7 +31,7 @@ public class FamilyController {
         family.add("Mazza");
         family.add("Claire");
         family.add("Maire");
-        family.add("Noel" + new Date());
+        family.add("Noel - pushed to git, build on jenkins and pushed to EC2 slice ");
 
     }
 
@@ -50,6 +50,7 @@ public class FamilyController {
         }
 
         header += "\n</ul>";
+        header += "<h2>Page generated at " + new Date() + "</h2>\n";
 
         return header;
     }
