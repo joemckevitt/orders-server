@@ -32,7 +32,7 @@ public class FamilyController {
         family.add("Claire");
         family.add("Maire");
         family.add("Noel");
-        family.add("Ozzie!");
+        family.add("Hello, isn't this cool!");
 
 
     }
