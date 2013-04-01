@@ -31,7 +31,7 @@ public class FamilyController {
         family.add("Mazza");
         family.add("Claire");
         family.add("Maire");
-        family.add("Noel - pushed to git, build on jenkins and pushed to EC2 slice ");
+        family.add("Noel");
 
     }
 
