@@ -32,9 +32,7 @@ public class FamilyController {
         family.add("Claire");
         family.add("Maire");
         family.add("Noel");
-        family.add("CD change, its all happening!");
-
-
+        family.add("commit, build, deploy!");
     }
 
 
