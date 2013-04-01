@@ -32,7 +32,7 @@ public class FamilyController {
         family.add("Claire");
         family.add("Maire");
         family.add("Noel");
-        family.add("CD change in both EC2 and local env");
+        family.add("CD change, its all happening!");
 
 
     }
